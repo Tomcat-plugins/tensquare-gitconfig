@@ -1,0 +1,16 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: tensquare‐sms #指定服务名
+  rabbitmq:
+    host: 149.28.50.234
+logging:
+  level:
+    com.superbrain: debug
+  pattern:
+    console: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss.SSS} ===> [%thread] ===> %-5level ===> %logger{50} ===> - %msg%n'
+  file:
+    max-size: 100MB
+    path: D://SuperBrain/PhoneNumberCode
