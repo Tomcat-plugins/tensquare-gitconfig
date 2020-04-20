@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: tensquare-base
+  rabbitmq:
+    host: 149.28.50.234
   datasource:
     url: jdbc:mysql://149.28.50.234:3306/tensquare_base?serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -12,8 +14,6 @@ spring:
     database: mysql
     show-sql: true
     generate-ddl: true
-  rabbitmq:
-    host: 149.28.50.234
 eureka:
   client:
     service-url:
