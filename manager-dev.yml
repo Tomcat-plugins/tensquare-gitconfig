@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: tensquare-manager
+  rabbitmq:
+    host: 149.28.50.234
 eureka:
   client:
     service-url:
