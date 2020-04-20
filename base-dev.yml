@@ -21,4 +21,3 @@ eureka:
   instance:
     #可以跨域
     prefer-ip-address: true
-ip: 149.28.50.234
