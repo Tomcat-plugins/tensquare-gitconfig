@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: tensquare-spit
+  rabbitmq:
+    host: 149.28.50.234
   data:
     mongodb:
       host: 149.28.50.234
