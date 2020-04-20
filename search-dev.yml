@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: tensquare-search
+  rabbitmq:
+    host: 149.28.50.234
   data:
   elasticsearch:
     rest:
