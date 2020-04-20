@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: tensquare-article #指定服务名
+  rabbitmq:
+    host: 149.28.50.234
   datasource:
     url: jdbc:mysql://149.28.50.234:3306/tensquare_article?serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
